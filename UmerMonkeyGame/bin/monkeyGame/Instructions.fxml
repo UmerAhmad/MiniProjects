@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Importing all necessities for fxml -->
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<!-- Main block in which everything is constructed, border pane, grid, button work, text field, and label-->
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="monkeyGame.StartController">
+   <center>
+      <Pane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="127.0" layoutY="23.0" prefHeight="65.0" prefWidth="334.0" text="INSTRUCTIONS">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+            <TextArea layoutX="36.0" layoutY="100.0" prefHeight="199.0" prefWidth="524.0" text="Monkey Bonanza!&#10;&#10;&#10;You are a monkey, your hunger is endless, try to sate it by eating as many bananas as possible.&#10;You use the arrow keys to move. If your playing multiplayer, your dad uses WASD to move also.&#10;Be sure to avoid the cocounts, and as the game progresses (more bananas eaten, score higher), &#10;more cocunuts will arrive. Also, powerups will spawn intervally, so be sure to grab that to double&#10;your speed! (PS - don't teleport too much). " />
+            <Button layoutX="170.0" layoutY="315.0" mnemonicParsing="false" onAction="#closeCurrentWindow" prefHeight="71.0" prefWidth="235.0" text="Thanks!" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

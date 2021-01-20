@@ -1,0 +1,36 @@
+/* Set entire background of program as a whole to a brown colour */
+.root{
+	-fx-background-color: 	#a57b2b;
+}
+
+/* All the buttons will have a the same light brown colour, hover with colour */
+.button{
+	-fx-background-color: #D2691E;
+	-fx-background-insets: -1, 0, 1, 1;
+	-fx-border-color: #1A2129;
+	-fx-border-width: 3 3 3 3;
+	-fx-font-weight: bold;
+}
+
+.menu{
+	-fx-background-color: #a57b2b;
+}
+
+.menu-bar{
+	-fx-background-color: #a57b2b;
+}
+
+.menu-item{
+	-fx-background-color: #a57b2b;
+}
+
+/* Change all buttons to a green colour when hovered over */
+.button:hover{
+	-fx-background-color: #006400;
+	}
+	
+	
+.label{
+	-fx-text-fill: #006400;
+}
+	
