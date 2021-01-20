@@ -1,0 +1,56 @@
+/* Set entire background of program as a whole to a dark colour */
+.root{
+	-fx-background-color: #1A2129;
+}
+
+/* Set menu, and the children the same dark colour*/
+.menu{
+	-fx-background-color: #1A2129;
+}
+
+.menu-bar{
+	-fx-background-color: #1A2129;
+}
+
+.menu-item{
+	-fx-background-color: #1A2129;
+}
+
+/* Set labels to a lighter colour to contrast*/
+.label{
+	-fx-text-fill: #88A9BA;
+}
+
+/* All the buttons will have a the same lighter colour, with a 36px font size, hover with colour */
+.button{
+	-fx-background-color: #88A9BA;
+	-fx-background-insets: -1, 0, 1, 1;
+	-fx-border-color: #1A2129;
+	-fx-border-width: 3 3 3 3;
+	-fx-font-weight: bold;
+	-fx-font-size: 36;
+
+}
+
+/* Change all buttons to a darker colour when hovered over */
+.button:hover{
+	-fx-background-color: #5E7885
+}
+
+/* Highlight the 3 winning buttons with a red, orange, and yellow gradient*/
+.winning-button {
+	-fx-background-color:
+		radial-gradient(radius 100%, red, orange, yellow);
+	-fx-text-fill: white;
+}
+
+/* Set text-field and text-area to a dark colour, with the text in the text-field to a lighter colour similar to the previous ones*/
+.text-field{
+	-fx-background-color: #1A2129;
+	-fx-text-fill: #88A9BA;
+}
+
+.text-area{
+	-fx-background-color: #1A2129;
+}
+

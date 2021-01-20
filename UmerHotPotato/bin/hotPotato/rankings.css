@@ -1,0 +1,39 @@
+/* Set entire background of program as a whole to a dark colour */
+.root{
+	-fx-background-color: #000000;
+}
+
+
+/* Set labels to a orange colour to contrast*/
+.label{
+	-fx-text-fill: #FF6600;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+/* All the buttons will have a the same orange colour, hover with colour */
+.button{
+	-fx-background-color: #FF6600;
+	-fx-background-insets: -1, 0, 1, 1;
+	-fx-border-color: #1A2129;
+	-fx-border-width: 3 3 3 3;
+	-fx-font-weight: bold;
+}
+
+/* Change all buttons to a blue colour when hovered over */
+.button:hover{
+	-fx-background-color: #146EB4
+}
+
+
+
+/* Set text-field and text-area to a dark colour, with the text in the text-field to a lighter colour similar to the previous ones*/
+.text-field{
+	-fx-background-color: #FF6600;
+	-fx-text-fill: #000000;
+	-fx-font-weight: bold;
+	-fx-font-size: 24;
+}
+
+
+

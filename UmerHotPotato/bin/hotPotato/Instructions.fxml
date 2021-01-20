@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Importing all necessities for fxml -->
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<!-- Main block in which everything is constructed, border pane, button work, text field, and label-->
+<BorderPane prefHeight="297.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotPotato.HotPotatoController">
+   <center>
+      <AnchorPane prefHeight="487.0" prefWidth="491.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea layoutX="21.0" layoutY="14.0" prefHeight="104.0" prefWidth="439.0" text="Hot Potato is a singleplayer/multiplayer game that is the exact same concept&#10;as the one you likely played as a child. In the games case, you will be able to&#10;input and remove names from a list, which will then enter a 'battle royal' of &#10;randomized defeat synchronized with the music. Last one to survive wins!" />
+            <Button onAction="#closeCurrentWindow" layoutX="169.0" layoutY="126.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="144.0" text="Got it!" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <Label text="Instructions" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

@@ -1,0 +1,41 @@
+/* Set entire background of program as a whole to a blackish colour */
+.root{
+	-fx-background-color: #282828;
+}
+
+/* For the label that states the type of operation, make the text gray */
+.label{
+	-fx-text-fill: #A19C9C
+}
+
+/* All the buttons will have a whiteish colour, with a 15px font size, hoverable transition and gradient */
+.button{
+	    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #A19C9C),
+        radial-gradient(center 50% 0%, radius 100%, rgba(128,128,128,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 15px;
+    -fx-padding: 10 20 10 20;
+    transition-duration: 0.4s;
+}
+
+/* Hover transition, when hovered over change the colour to darker */
+.button:hover{
+		-fx-background-color: 
+        #A19C9C,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(161,156,156,0.9), rgba(255,255,255,0));
+}
+
+/* Text field colour scheme and font size */
+.text-input{
+	-fx-background-color: #A19C9C;
+	-fx-font-size: 15px;
+}
